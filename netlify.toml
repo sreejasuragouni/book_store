@@ -1,0 +1,7 @@
+[build]
+  base = "frontend"
+  publish = "frontend/dist/book_store"
+  command = "npm install && npm run build -- --configuration production"
+
+[build.environment]
+  NODE_VERSION = "18"

@@ -1,6 +1,6 @@
 [build]
   base = "frontend"
-  publish = "frontend/dist/New folder"
+  publish = "frontend/dist/book-store"
   command = "npm install && npm run build -- --configuration production"
 
 [build.environment]
